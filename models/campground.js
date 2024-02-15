@@ -11,9 +11,6 @@ ImageSchema.virtual('thumbnail').get(function () {
     return this.url.replace('/upload', '/upload/w_200');
 });
 
-ImageSchema.virtual('cardImage').get(function () {
-    return this.url.replace('/upload', '/upload/ar_1.3,c_fill,g_face');
-})
 
 const opts = { toJSON: { virtuals: true } };
 
