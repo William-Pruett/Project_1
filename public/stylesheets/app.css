@@ -10,9 +10,5 @@
 
 body {
     background-color: rgb(84, 84, 84);
-
-}
-
-.card-body {
-    border: 1px solid black;
+    color: black;
 }
